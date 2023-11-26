@@ -1,6 +1,7 @@
 html {
   font-size: 62.5%;
 }
+
 body {
   background-color: #f5f3f3;
 }
@@ -19,6 +20,7 @@ header {
   background: white;
   text-align: center;
 }
+
 @media (min-width: 750px) {
   header {
     text-align: left;
@@ -42,10 +44,20 @@ ul {
   background-size: cover;
 }
 #encabezado {
+  font-size: xx-large;
   margin: 30px 0;
 }
+
+#buscador {
+  color: black;
+}
+
+#relleno{
+  width: 50em;
+}
+
 .submenu {
-  position: relative;
+  position: static;
 }
 
 .submenu #carrito {
@@ -138,6 +150,10 @@ ul {
 #lista-cursos .row {
   margin-bottom: 20px;
 }
+#buscador {
+  color: black;
+}
+
 .agregar-carrito {
   margin: 10px 0;
 }
@@ -170,6 +186,10 @@ ul {
   font-size: 22px;
 }
 
+#buscador {
+  color: black;
+}
+
 .footer {
   margin-top: 40px;
   border-top: 1px solid #aaa;
@@ -179,4 +199,44 @@ ul {
   display: block;
   margin-bottom: 10px;
   text-decoration: none;
+}
+
+#resultado {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Cambié space-around a space-between */
+}
+
+#resultado .col-md-4 {
+  flex: 0 0 calc(30% - 1rem); /* Ajusté el ancho para permitir tres columnas */
+  max-width: calc(30% - 1rem);
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.submenu:hover #carrito,
+#carrito:hover {
+  display: block !important;
+}
+
+#carrito {
+  display: none;
+}
+
+/* Resto de tu CSS existente... */
+
+.submenu {
+  position: relative;
+}
+
+.submenu #carrito {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  min-height: 400px;
+  min-width: 300px;
 }

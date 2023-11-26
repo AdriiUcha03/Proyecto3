@@ -3,47 +3,47 @@
     {
         "nombrecurso": "JavaScript",
         "autor": "Manuel R",
-        "img": "http://127.0.0.1:5500/Proyectos/Proyecto3/img/curso1.jpg",
+        "img": "./img/curso1.jpg",
         "precio": "150€" 
     },{
         "nombrecurso": "HTML5,CSS3",
         "autor": "Alejandro C",
-        "img": "http://127.0.0.1:5500/Proyectos/Proyecto3/img/curso2.jpg",
+        "img": "./img/curso2.jpg",
         "precio": "75€" 
     },{
         "nombrecurso": "PHP",
         "autor": "Javier O",
-        "img": "http://127.0.0.1:5500/Proyectos/Proyecto3/img/curso3.jpg",
+        "img": "./img/curso3.jpg",
         "precio": "75€" 
     },{
         "nombrecurso": "Hacking Ético",
         "autor": "Manuel R",
-        "img": "http://127.0.0.1:5500/Proyectos/Proyecto3/img/curso4.jpg",
+        "img": "./img/curso4.jpg",
         "precio": "99€" 
     },{
         "nombrecurso": "Incidentes de Ciberseguridad",
-        "autor": "Eduardo F.",
-        "img": "http://127.0.0.1:5500/Proyectos/Proyecto3/img/curso5.jpg",
+        "autor": "Eduardo F",
+        "img": "./img/curso5.jpg",
         "precio": "120€" 
     },{
         "nombrecurso": "Bastionado de Sistemas y Redes",
         "autor": "David R",
-        "img": "http://127.0.0.1:5500/Proyectos/Proyecto3/img/curso6.jpg",
+        "img": "./img/curso6.jpg",
         "precio": "50€" 
     },{
         "nombrecurso": "Análisis Forense Informático",
         "autor": "Manuel R",
-        "img": "http://127.0.0.1:5500/Proyectos/Proyecto3/img/curso7.jpg",
+        "img": "./img/curso7.jpg",
         "precio": "180€" 
     },{
         "nombrecurso": "Puesta de Producción Segura",
         "autor": "Alejandro C",
-        "img": "http://127.0.0.1:5500/Proyectos/Proyecto3/img/curso8.jpg",
+        "img": "./img/curso8.jpg",
         "precio": "80€" 
     },{
         "nombrecurso": "Docker",
         "autor": "Javier G",
-        "img": "http://127.0.0.1:5500/Proyectos/Proyecto3/img/curso9.jpg",
+        "img": "./img/curso9.jpg",
         "precio": "120€" 
     }
 ]
